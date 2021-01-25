@@ -1,8 +1,7 @@
 import kotlin.random.Random
-fun main(){
-  var Nedelya = readLine()!!.toInt()
+fun main() {
   var Year = readLine()!!.toInt()
-  var a = Random.nextInt(1,8)
-    //решить задачу н 30 и люб на выбор
-//
+  var q = (Year / 100) + 1
+  println(q)
+
 }
